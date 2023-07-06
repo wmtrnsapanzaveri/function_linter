@@ -14,6 +14,6 @@ PluginBase createPlugin() => _MyLintsPlugin();
 class _MyLintsPlugin extends PluginBase {
   @override
   List<LintRule> getLintRules(CustomLintConfigs _) => [
-    FunctionLinterException(),
-  ];
+        FunctionLinterException(),
+      ];
 }
