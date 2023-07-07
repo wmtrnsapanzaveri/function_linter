@@ -15,14 +15,13 @@ class FunctionLinterException extends DartLintRule {
     correctionMessage: "Please declare the function outside the build method",
     name: 'prefer-extracting-callbacks',
     problemMessage:
-    'Prefer extracting the callback to a separate widget method.',
+        'Prefer extracting the callback to a separate widget method.',
   );
 
   bool _isNotIgnored(Expression argument) {
     return !(argument is! NamedExpression);
   }
-  
-  
+
   bool _hasNotEmptyBlockBody(FunctionExpression expression) {
     final body = expression.body;
     if (body is! BlockFunctionBody) {
@@ -68,14 +67,14 @@ class FunctionLinterException extends DartLintRule {
 
   @override
   void run(
-      CustomLintResolver resolver,
-      ErrorReporter reporter,
-      CustomLintContext context,
-      ) {
+    CustomLintResolver resolver,
+    ErrorReporter reporter,
+    CustomLintContext context,
+  ) {
     context.registry.addInstanceCreationExpression((node) {
       for (final argument in node.argumentList.arguments) {
         final expression =
-        argument is NamedExpression ? argument.expression : argument;
+            argument is NamedExpression ? argument.expression : argument;
 
         //
         // if (_isNotIgnored(argument) &&
@@ -106,9 +105,6 @@ class FunctionLinterException extends DartLintRule {
     // });
   }
 
-
 // @override
 // List<Fix> getFixes() => [_MyCustomLintCodeFix()];
 }
-
-

@@ -1,19 +1,20 @@
 name: function_linter
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
-
+description: A specialized tool for Flutter devs, discouraging inline functions to promote clean code. Enhance readability and reusability.
+version: 1.0.5
+homepage: https://github.com/wmtrnsapanzaveri/function_linter
 environment:
   sdk: ^3.0.2
 
 # Add regular dependencies here.
 dependencies:
-  analyzer: 5.12.0
-  analyzer_plugin: 0.11.2
-  custom_lint_builder: 0.5.0
+  analyzer: ^5.12.0
+  analyzer_plugin: ^0.11.2
+  custom_lint_builder: ^0.5.0
 
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.0
   custom_lint: ^0.5.0
+  lint: ^2.0.0
+  test: ^1.21.0
+
+
