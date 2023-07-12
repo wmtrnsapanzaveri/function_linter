@@ -1,0 +1,81 @@
+[
+  {
+    "name": "function_linter",
+    "qualifiedName": "function_linter",
+    "href": "function_linter/function_linter-library.html",
+    "type": "library",
+    "overriddenDepth": 0,
+    "packageName": "function_linter",
+    "desc": "Support for doing something awesome."
+  },
+  {
+    "name": "FunctionLinterException",
+    "qualifiedName": "function_linter.FunctionLinterException",
+    "href": "function_linter/FunctionLinterException-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "function_linter",
+    "desc": "",
+    "enclosedBy": {
+      "name": "function_linter",
+      "type": "library",
+      "href": "function_linter/function_linter-library.html"
+    }
+  },
+  {
+    "name": "FunctionLinterException",
+    "qualifiedName": "function_linter.FunctionLinterException.FunctionLinterException",
+    "href": "function_linter/FunctionLinterException/FunctionLinterException.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "function_linter",
+    "desc": "",
+    "enclosedBy": {
+      "name": "FunctionLinterException",
+      "type": "class",
+      "href": "function_linter/FunctionLinterException-class.html"
+    }
+  },
+  {
+    "name": "isWidgetOrSubclass",
+    "qualifiedName": "function_linter.FunctionLinterException.isWidgetOrSubclass",
+    "href": "function_linter/FunctionLinterException/isWidgetOrSubclass.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "function_linter",
+    "desc": "",
+    "enclosedBy": {
+      "name": "FunctionLinterException",
+      "type": "class",
+      "href": "function_linter/FunctionLinterException-class.html"
+    }
+  },
+  {
+    "name": "run",
+    "qualifiedName": "function_linter.FunctionLinterException.run",
+    "href": "function_linter/FunctionLinterException/run.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "function_linter",
+    "desc": "Emits lints for a given file.",
+    "enclosedBy": {
+      "name": "FunctionLinterException",
+      "type": "class",
+      "href": "function_linter/FunctionLinterException-class.html"
+    }
+  },
+  {
+    "name": "createPlugin",
+    "qualifiedName": "function_linter.createPlugin",
+    "href": "function_linter/createPlugin.html",
+    "type": "function",
+    "overriddenDepth": 0,
+    "packageName": "function_linter",
+    "desc": "",
+    "enclosedBy": {
+      "name": "function_linter",
+      "type": "library",
+      "href": "function_linter/function_linter-library.html"
+    }
+  }
+]

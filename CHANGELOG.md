@@ -1,13 +1,5 @@
-## 1.0.5
+## 1.0.8
 - Minor changes.
-## 1.0.4
-- Minor changes.
-## 1.0.3
-- Change in example 
-
-## 1.0.2
-
-- Added description and format code.
 
 ## 1.0.1
 

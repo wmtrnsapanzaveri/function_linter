@@ -1,6 +1,6 @@
 name: function_linter
 description: A specialized tool for Flutter devs, discouraging inline functions to promote clean code. Enhance readability and reusability.
-version: 1.0.5
+version: 1.0.8
 homepage: https://github.com/wmtrnsapanzaveri/function_linter
 environment:
   sdk: ^3.0.2
